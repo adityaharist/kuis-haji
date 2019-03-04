@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Haji's quiz</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="grid.css">
+</head>
+
+<body>
+	<div class='row js-startPage'>
+		<div class='col-5 start'>
+			<h1>Haji's quiz</h1>
+			<button class='js-start hover'>Mulai</button>
+		</div>
+	</div>
+	<div class='row hidden' id='question-container'>
+		<section class='question-container col-8'>
+			<p class="question">Tujuan dilaksanakan ibadah haji?</p><br>
+			<button class='button0 js-answer hover' value='0'>Mengunjungi Baitullah di Mekah kerana mengerjakan ibadat tertentu pada masa tertentu dengan syarat tertentu</button><br>
+			<button class='button1 js-answer hover' value='1'>Mengunjungi Kaabah di Mekah kerana melakukan tawaf kerana Allah</button><br>
+			<button class='button2 js-answer hover' value='2'>Mengunjungi Baitullah di Mekah kerana melakukan ibadat tertentu pada waktu-waktu tertentu</button><br>
+			<button class='button3 js-answer hover' value='3'>Mengunjungi Baitullah di Mekah kerana ingin melakukan tawaf, sai dan bercukur</button>
+		</section>
+	</div>
+	<div class='row'>
+		<div class='continue-container col-8'>
+			<div class='positionLeft'>
+				<span class='js-count'>Soal: 1/10</span><br>
+				<span class='js-score'>Benar: 0/0</span>
+			</div>
+			<button class='continue js-continue hidden'>Lanjut</button>
+		</div>
+	</div>
+	<div class='row response-row'>
+		<div class='col-12'>
+			<div class='result'>
+				<span class='response1'></span><br>
+				<span class='response2 hidden'></span>
+			</div>
+		</div>
+	</div>
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="app.js"></script>
+	<script></script>
+</body>
+
+</html>
